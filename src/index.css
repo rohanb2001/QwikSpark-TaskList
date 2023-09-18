@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* :root {
+  --primary-color: rgb(255, 92, 92);
+  --on-background: rgb(66, 66, 66);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4f4f4;
+  color: #000;
+  position: relative;
+}
+
+h3 {
+  margin-bottom: 7px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-h1 {
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  /* font-style: oblique; */
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Form */
+form input {
+  width: 30%;
+  padding: 0.6rem 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background: transparent;
+  border: 1px solid cyan;
+  font-size: 14px;
+  margin-right: 0.4rem;
+}
+
+form input:focus {
+  border: 1px solid #000;
+}
+
+form select {
+  width: 13%;
+  height: 35px;
+  border: none;
+  border: 1px solid cyan;
+  outline: none;
+  margin-right: 0.4rem;
+}
+
+form .button {
+  padding: 11px 30px;
+  border: none;
+  outline: none;
+  background: #ea4c89;
+  color: #fff;
+  border-radius: 5px;
+}
+
+form .button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  transition: all 0.2s ease;
+}
+
+.error-msg {
+  margin-top: 17px;
+  letter-spacing: 1.1px;
+  color: red;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: all 0.5s ease;
+}
+
+.buttons-container {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons-container ul {
+  display: flex;
+}
+
+.high {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background: #f4f4f4;
+  color: #d40808;
+  border-radius: 5px;
+}
+
+.low {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background: #f4f4f4;
+  color: #2ef806;
+  border-radius: 5px;
+}
+
+.filter {
+  width: 11%;
+  height: 35px;
+  border: none;
+  border: 1px solid cyan;
+  outline: none;
+  margin-bottom: 2rem;
+}
+
+.task-incomplete {
+  padding: 10px 20px;
+  background: tomato;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: -1.2rem;
+  cursor: pointer;
+}
+
+.task-complete {
+  padding: 10px 20px;
+  background: cyan;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: -1.2rem;
+}
+
+/* Delete Btn */
+.delete-btn {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background: #d40808;
+  color: #fff;
+  border-radius: 5px;
+  /* margin-bottom: 1rem; */
+  cursor: pointer;
+}
+.edit-btn {
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  background: rgb(148, 139, 236);
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.disable {
+  pointer-events: none;
+  background: #ccc;
+}
