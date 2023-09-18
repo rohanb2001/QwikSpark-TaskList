@@ -45,7 +45,7 @@ const TodoLi = ({ title, content, priority, id, completed }) => {
           <s>{content}</s>
         </p>
       ) : (
-        <p>{title}</p>
+        <p>{content}</p>
       )}
       <div className="buttons-container">
         <ul>
